@@ -1,0 +1,10 @@
+class employee:
+    salary = 1000
+    increment = 2
+
+    @property
+    def salaryincrement(self):
+        return self.salary * self.increment
+
+a = employee()
+print(a.salaryincrement)
