@@ -1,0 +1,19 @@
+class animal:
+    animaltype = "mammal"
+    animalname = "goat"
+
+class human:
+    humanname = "hassam"
+    humanage = 22
+
+class sound:
+     @staticmethod
+     def animalvoice():
+         print("may may")
+
+a = sound()
+b = human()
+c = animal()
+a.animalvoice()
+print(b.humanname)
+print(c.animalname)
